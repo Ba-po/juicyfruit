@@ -1,0 +1,209 @@
+MontialtoWebpage_Finals.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeddIrisMontialto_Portfolio</title>
+    <script src="https://kit.fontawesome.com/9e6e45ce32.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if (this.scrollY < 20){
+                $('.homebar').addClass("bar");
+            }else{
+                $('.homebar').removeClass("bar");
+            }
+        })
+    })</script>
+</head>
+
+<body>
+    
+<nav class = "homebar">
+    
+    <div class="max-width">
+        <div class="logo"><a href="#">Portfol<span>io</span></a></div>
+        <ul class="option">
+            <li><a href="#">Home </a></li>
+            <li><a href="https://www.facebook.com/jeddiris.montialto.16">Facebook </a></li>
+            <li><a href="https://www.instagram.com/bamhaneullll/">Instagram </a></li>
+            <li><a href="https://twitter.com/montialtooo">Twitter</a></li>
+        </ul>
+        <div class= "moreOp">
+            <i class= "fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+
+<section class="home" id="home">
+    <div class="homeAlign">
+        <div class = "homeElement">
+            <div class="sec1">Oh, hello there! </div>
+            <div class="sec2"> Welcome to my Portfolio. I am</div>
+            <br></br>
+            <div class="sec3"> Jedd Iris B. Montialto</div>
+            <div class="sec4"> an <span> IT student</span> from Batangas State University- The National Engineering University</div>
+        </div>
+    </div>
+</section>
+
+
+<section class="aboutMe" id="aboutMe">
+    <div class="infoAlign">
+        <h2 class="head">ABOUT <span> ME </span></h2>
+        <div class = "aboutElement">
+           <img src="jeddProfile.JPG" alt="">
+
+    </div>
+</section>
+
+
+
+<section class="myCaption">
+    <div class="textalign">
+        <h2 class="head">a <span>Day Dreamer</span>  and a<span>  Night Thinker</span></h2>
+        <div class = "description">
+           <p>Jedd Iris is a first year IT student dreaming to become a Software Engineer. She is currently living in a small town of Batangas and as she is still studying, she explore the field of coding to wander her knowledge about computer programming. She also believes in the quotation that "everything takes time, just trust the process". </p>
+        </div>
+    </div>
+    <div class="birth">
+        <script>
+            function myBirthDate(){
+                
+                const birthDate = document.getElementById("bornDay").innerHTML = ("<br><h4><font face = Berlin Sans FB color = royalblue size = 5><marquee bgcolor = black width=250px >  🎊 🎁 SAVE THE DATE 🎁 🎊</marquee>" + "<br/> Jedd's Birthday is on : <br/> August 10, 2003  ♌ </font></h4></br>");
+            }
+        </script>
+        
+    </div>
+    
+</section>
+
+<section class="here">
+    <div class="know"> Wanna know my birthday? Click Here!</div>
+</section>
+
+<center>
+<button style="background-color: rgb(193, 127, 255);color: black; font-family:'Franklin Gothic Medium'; border-radius: 25px; border-width: 5px ; width: 150px; height: 50px " onclick = "myBirthDate()"> BIRTH DATE </button>
+<p id = "bornDay"></p>
+</center>
+
+<div class="contact">
+    <p>follow me on:</p>
+        <a href="https://www.facebook.com/jeddiris.montialto.16"><i class="fab fa-facebook"></a></i>
+        <a href="https://www.instagram.com/bamhaneullll/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/montialtooo"><i class="fab fa-twitter"></i></a>
+</div>
+
+<section class="faves">
+    <nav class = "favorites">
+        <div class="luv">
+            <p><div class="header"></h2><span>FAV</span>ORITE<span>S</span></div></p>
+            <div class="luv2">
+                <p><h4 class="header2">source of happiness and comfort</h4></p>
+            </div>
+            <ul class="option">
+                <center> 
+                <li><a href="https://www.marvel.com/movies">MOVIES </a></li>
+                <li><a href="https://soundcloud.com/bangtan">BTS </a></li>
+                <li><a href="https://www.w3schools.com/"> CODING </a></li>
+                </center>
+            </ul>
+            <div class= "favcaption"><p><br></br> These are just some of the things I cherished<br></br> <span>Movies</span> <br></br> I love watching movies mostly the Marvel movies. I am a fan of Marvel but not actively reading the comics haha.Well, Peter Parker is my ultimate fav hero among them, loki is my top 2 and my cutie bucky barnes is for my top 3 and the the rest is still my faves.<br></br><span>BTS</span><br></br> I am proud to be a fan of these Korean Boy Band. I became there fan since 2017 and I'm really looking forward to the day that I will meet the seven of them. They has a soft place in my heart forever. <br></br><span>Coding</span><br></br> Since I was little, computer got my interest. I remember when we have a computer with a bulky monitor, I almost spend my day just sitting infront of it and play some online games. I am still a beginner about programming but I am devotedly give my time to explore this field. <br></br>
+        </p></div>
+
+       <center><p><div class="favFood"> <span>Fav</span> FOODIE</div></p> </center>
+        </div>
+
+        <div class="foodPics">
+            <ul class="foodOptions">
+                <center> 
+                    <div class="favfood1"><img src="photo/food1.jpg" alt=""></div> 
+                    <p class="nameFood1"> Pastries</p>
+                    <div class="favfood2"><img src="photo/food2.jpg" alt=""></div> 
+                    <p class="nameFood1"> Pork Humba</p>
+                    <div class="favfood3"><img src="photo/food3.jpg" alt=""></div> 
+                    <p class="nameFood2"> Popcorn</p>
+              
+                </center>
+            </ul>
+        </div>
+
+    </nav>
+</section>
+
+<section class="achievements">
+    <nav class="achieve">
+        <div id="records">
+           <p><div class="headerRecord"><span> ACHIEVE</span>MENTS</div></p> 
+           <div div class="headerRecord2"><p>Graditute and Attainment</p></div>
+            <div class="recCaption">On her journey of living she attain several achievements. </div>
+
+            <div class="row1">
+                <div class="rec1"><img src="achieve1.jpg" alt=""></div>
+                <div class="rec1"><img src="achieve2.jpg" alt=""></div>
+                <div class="rec1"><img src="achieve3.jpg" alt=""></div>
+            </div>
+                
+        </div>
+    </nav>
+
+</section>
+
+<center>
+    <section class="family">
+        <div class="w3-content w3-section" style="max-width:500px">
+            <p><h1><span>Jedd</span>'s Inspiration<br><br></h1>This is her happy and loving family that always supports her.<br><br></p>
+          
+            <img class="mySlides w3-animate-fading" src="fam1.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="fam2.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="fam3.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading" src="fam4.jpg" style="width:100%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 9000);    
+          }
+          </script>
+          
+    </section>
+    
+</center>
+
+
+
+
+<h3>
+<section class = "date">
+    <span>
+        <a href="https://www.facebook.com/jeddiris.montialto.16"><i class="fab fa-facebook"></a></i>
+        <a href="https://www.instagram.com/bamhaneullll/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/montialtooo"><i class="fab fa-twitter"></i></a>
+    </span>
+    <script>
+        var todayDate = new Date();
+        document.write("Date : " + todayDate.toDateString());
+    </script>
+</section>
+</h3>
+
+
+</body>
+</html>
